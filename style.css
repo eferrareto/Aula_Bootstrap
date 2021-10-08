@@ -1,0 +1,7 @@
+body{
+    padding: none;
+    margin: none;
+}
+.container-fluid{
+    background-color: rgba(189, 211, 211, 0.322);
+}
