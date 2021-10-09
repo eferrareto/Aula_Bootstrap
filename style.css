@@ -1,7 +1,12 @@
 body{
     padding: none;
     margin: none;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
 .container-fluid{
     background-color: rgba(189, 211, 211, 0.322);
 }
