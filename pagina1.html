@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>Login</header>
     <form>
+        <header class="headi">Login</header>
         <input type="text" placeholder="Nome">
+        <br>
         <input type="text" placeholder="Senha">
-        input
+        <br>
+        <label for="console">Escolha uma opção</label>
+        <input list="console" id="videogames">
+        <datalist id="console">
+            <option value="Xbox One"></option>
+            <option value="Playstation 5"></option>
+        </datalist>
+        <br>
+        <button class="btn" onclick="login()">Login</button>
     </form>
 </body>
 </html>
