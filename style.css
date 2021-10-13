@@ -1,12 +1,22 @@
 body{
     padding: none;
     margin: none;
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: rgb(0, 0, 0);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
+nav{
+    background-color: black;
+}
 .container-fluid{
-    background-color: rgba(189, 211, 211, 0.322);
+    background-color: rgba(67, 197, 34, 0.548);
+}
+footer{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(67, 197, 34, 0.863);
+}
+a{
+    color: #ffff;
 }
