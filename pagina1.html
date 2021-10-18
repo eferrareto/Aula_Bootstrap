@@ -8,20 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form id="formulario">
         <header class="headi">Login</header>
-        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Nome" class="inp">
         <br>
-        <input type="text" placeholder="Senha">
+        <input type="text" placeholder="Senha" class="inp">
         <br>
         <label for="console">Escolha uma opção</label>
-        <input list="console" id="videogames">
+        <input list="console" id="videogames"class="inp">
         <datalist id="console">
-            <option value="Xbox One"></option>
-            <option value="Playstation 5"></option>
+            <option value="Xbox One" id="xbox"></option>
+            <option value="Playstation 5" id="ps5"></option>
         </datalist>
         <br>
-        <button class="btn" onclick="login()">Login</button>
+        <button class="bto" onclick="login()">Login</button>
+        <p id="respo"></p>
     </form>
+    <script>
+        function login(){
+        }
+    </script>
 </body>
 </html>

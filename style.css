@@ -23,7 +23,7 @@ a{
 .headi{
     padding-top: 10px;
 }
-form{
+#formulario{
     font-weight: bolder;
     margin-top: 100px;
     border-radius: 5px;
@@ -35,7 +35,7 @@ form{
     background-color: rgba(36, 173, 144, 0.61);
     text-align: center;
 }
-input{
+.inp{
     background-color: rgba(202, 224, 220, 0.568);
     padding: 2px;
     border: none;
@@ -45,14 +45,16 @@ input{
     margin: 3px;
     padding-left: 10px;
 }
-.btn{
-    
+.bto{
     font-weight: bolder;
-    padding: 10px;
     border: none;
     border-radius: 15px;
     height: 30px;
     width: 210px;
     margin: 3px;
     padding-left: 10px;
+}
+.bto:hover{
+    cursor: pointer;
+    background-color: rgba(250, 217, 174, 0.753);
 }
